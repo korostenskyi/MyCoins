@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D150ECFF25694F48005FD58C /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150ECFE25694F48005FD58C /* SignInScreen.swift */; };
 		D1D7865225289FBC00621F8F /* MyCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D7865125289FBC00621F8F /* MyCoinsApp.swift */; };
-		D1D7865425289FBC00621F8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D7865325289FBC00621F8F /* ContentView.swift */; };
 		D1D7865625289FBF00621F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D7865525289FBF00621F8F /* Assets.xcassets */; };
 		D1D7865925289FBF00621F8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D7865825289FBF00621F8F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D150ECFE25694F48005FD58C /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
 		D1D7864E25289FBC00621F8F /* MyCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D7865125289FBC00621F8F /* MyCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoinsApp.swift; sourceTree = "<group>"; };
-		D1D7865325289FBC00621F8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1D7865525289FBF00621F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D7865825289FBF00621F8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1D7865A25289FBF00621F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +33,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D150ECFD25694F32005FD58C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D150ECFE25694F48005FD58C /* SignInScreen.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		D1D7864525289FBC00621F8F = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +60,10 @@
 		D1D7865025289FBC00621F8F /* MyCoins */ = {
 			isa = PBXGroup;
 			children = (
+				D1EC6DEA256060B000034185 /* SupportFiles */,
+				D1EC6DE9256060A400034185 /* Resources */,
+				D1EC6DE72560606800034185 /* Presentation */,
 				D1D7865125289FBC00621F8F /* MyCoinsApp.swift */,
-				D1D7865325289FBC00621F8F /* ContentView.swift */,
-				D1D7865525289FBF00621F8F /* Assets.xcassets */,
-				D1D7865A25289FBF00621F8F /* Info.plist */,
 				D1D7865725289FBF00621F8F /* Preview Content */,
 			);
 			path = MyCoins;
@@ -67,6 +75,38 @@
 				D1D7865825289FBF00621F8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1EC6DE72560606800034185 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D1EC6DE82560608E00034185 /* Screen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D1EC6DE82560608E00034185 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D150ECFD25694F32005FD58C /* SignIn */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D1EC6DE9256060A400034185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1D7865525289FBF00621F8F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1EC6DEA256060B000034185 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D1D7865A25289FBF00621F8F /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D7865425289FBC00621F8F /* ContentView.swift in Sources */,
+				D150ECFF25694F48005FD58C /* SignInScreen.swift in Sources */,
 				D1D7865225289FBC00621F8F /* MyCoinsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCoins/Preview Content\"";
 				DEVELOPMENT_TEAM = KB9Y52LAWK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCoins/Info.plist;
+				INFOPLIST_FILE = MyCoins/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCoins/Preview Content\"";
 				DEVELOPMENT_TEAM = KB9Y52LAWK;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyCoins/Info.plist;
+				INFOPLIST_FILE = MyCoins/SupportFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
