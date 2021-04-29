@@ -33,12 +33,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D150ECFD25694F32005FD58C /* SignIn */ = {
+		D10CDD19263B1038008DE5D6 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				D150ECFE25694F48005FD58C /* SignUpScreen.swift */,
 			);
-			path = SignIn;
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		D1D7864525289FBC00621F8F = {
@@ -88,7 +88,7 @@
 		D1EC6DE82560608E00034185 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				D150ECFD25694F32005FD58C /* SignIn */,
+				D10CDD19263B1038008DE5D6 /* SignUp */,
 			);
 			path = Screen;
 			sourceTree = "<group>";

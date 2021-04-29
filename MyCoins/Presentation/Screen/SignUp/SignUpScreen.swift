@@ -30,10 +30,10 @@ struct SignUpScreen: View {
                 onEditingChanged: { isEditing in self.isEditing = isEditing },
                 onCommit: { print("Email commit") }
             )
-            .textFieldStyle(RoundedBorderTextFieldStyle())
             .autocapitalization(.none)
             .disableAutocorrection(true)
             .frame(width: 330)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding(.top, 35)
             
             SecureField(
@@ -76,7 +76,7 @@ struct SignUpScreen: View {
 }
 
 #if DEBUG
-struct SignInScreen_Previews: PreviewProvider {
+struct SignUpScreen_Previews: PreviewProvider {
     static var previews: some View {
         SignUpScreen()
     }
