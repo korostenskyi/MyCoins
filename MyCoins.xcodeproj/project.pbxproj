@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D150ECFF25694F48005FD58C /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150ECFE25694F48005FD58C /* SignInScreen.swift */; };
+		D150ECFF25694F48005FD58C /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150ECFE25694F48005FD58C /* SignUpScreen.swift */; };
 		D1D7865225289FBC00621F8F /* MyCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D7865125289FBC00621F8F /* MyCoinsApp.swift */; };
 		D1D7865625289FBF00621F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D7865525289FBF00621F8F /* Assets.xcassets */; };
 		D1D7865925289FBF00621F8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D7865825289FBF00621F8F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D150ECFE25694F48005FD58C /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		D150ECFE25694F48005FD58C /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		D1D7864E25289FBC00621F8F /* MyCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D7865125289FBC00621F8F /* MyCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoinsApp.swift; sourceTree = "<group>"; };
 		D1D7865525289FBF00621F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		D150ECFD25694F32005FD58C /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				D150ECFE25694F48005FD58C /* SignInScreen.swift */,
+				D150ECFE25694F48005FD58C /* SignUpScreen.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D150ECFF25694F48005FD58C /* SignInScreen.swift in Sources */,
+				D150ECFF25694F48005FD58C /* SignUpScreen.swift in Sources */,
 				D1D7865225289FBC00621F8F /* MyCoinsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
