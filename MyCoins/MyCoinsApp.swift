@@ -11,7 +11,7 @@ import SwiftUI
 struct MyCoinsApp: App {
     var body: some Scene {
         WindowGroup {
-            SignUpScreen()
+            SignUpView()
         }
     }
 }
