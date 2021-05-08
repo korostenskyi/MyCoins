@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SignUpScreen: View {
+struct SignUpView: View {
     
     @State private var email: String = ""
     @State private var password: String = ""
@@ -22,7 +22,7 @@ struct SignUpScreen: View {
             Image("signup_bg")
                 .resizable()
                 .frame(width: 330, height: 256)
-                .cornerRadius(12)
+                .clipShape(RoundedRectangle(cornerRadius: 25.0))
             
             TextField(
                 "Email",
@@ -76,9 +76,9 @@ struct SignUpScreen: View {
 }
 
 #if DEBUG
-struct SignUpScreen_Previews: PreviewProvider {
+struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpScreen()
+        SignUpView()
     }
 }
 #endif
